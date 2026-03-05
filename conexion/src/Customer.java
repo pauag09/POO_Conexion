@@ -55,6 +55,12 @@ this.email = email;
         this.email = email;
     }
 
+    public String toStringPersonalizado()
+    {
+        String result = "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + ", email=" + email + "]";
+        return result;
+    }
+
 
     }
 
